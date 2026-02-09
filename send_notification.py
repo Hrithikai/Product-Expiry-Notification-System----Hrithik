@@ -6,7 +6,7 @@ from email.mime.multipart import MIMEMultipart
 from datetime import datetime, timedelta
 
 # Firebase Setup
-cred = credentials.Certificate("productexpirychecker-firebase-adminsdk-fbsvc-773d9d8ff1.json")  # Replace with your JSON file
+cred = credentials.Certificate("productexpirychecker-firebase-adminsdk-fbsvc-3d9d8ff1.json")  # Replace with your JSON file
 firebase_admin.initialize_app(cred)
 db = firestore.client()
 
@@ -80,4 +80,5 @@ def check_expiry_and_notify():
 
 if __name__ == "__main__":
     check_expiry_and_notify()
+
 
