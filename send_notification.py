@@ -11,8 +11,8 @@ firebase_admin.initialize_app(cred)
 db = firestore.client()
 
 # Email Credentials
-SENDER_EMAIL = "boostup1947@gmail.com"  # Replace with your Gmail
-SENDER_PASSWORD = "bkcl hcuv gcjf gslz"  # Replace with your generated App Password
+SENDER_EMAIL = "boostup2047@gmail.com"  # Replace with your Gmail
+SENDER_PASSWORD = "hrit thik sai7 bhai"  # Replace with your generated App Password
 
 # Observer Pattern Implementation
 class ExpiryObserver:
@@ -80,3 +80,4 @@ def check_expiry_and_notify():
 
 if __name__ == "__main__":
     check_expiry_and_notify()
+
